@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* Light grey background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+h1 {
+  color: #4CAF50; /* Green */
+  font-size: 36px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+input[type="file"] {
+  padding: 10px;
+  border: 2px solid #4CAF50; /* Green border */
+  border-radius: 5px;
+  background-color: #ffffff; /* White background */
+  font-size: 16px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4CAF50; /* Green background */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+a {
+  display: block;
+  margin-top: 20px;
+  color: #1e90ff; /* Dodger blue */
+  text-decoration: none;
+  font-size: 18px;
+}
+
+a:hover {
+  color: #da0b0b; /* Darker dodger blue on hover */
+}
